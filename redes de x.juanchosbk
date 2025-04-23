@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juancho SBK - Redes Sociales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            color: #f5a623;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .social-links a {
+            text-decoration: none;
+            padding: 15px 25px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 1.2em;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .social-links a:hover {
+            background-color: #f5a623;
+        }
+        .social-links a:active {
+            background-color: #d4781d;
+        }
+        .social-links a img {
+            width: 25px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juancho SBK</h1>
+    <div class="social-links">
+        <a href="https://instagram.com/x.juanchosbk" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Instagram
+        </a>
+        <a href="https://tiktok.com/@x.juxnchosbk" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/TikTok_logo_2021.svg" alt="TikTok"> TikTok
+        </a>
+        <a href="https://youtube.com/@x.juanchosbk" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"> YouTube
+        </a>
+        <a href="https://twitch.tv/juancho_sbk" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Twitch_logo_2019.svg" alt="Twitch"> Twitch
+        </a>
+    </div>
+</body>
+</html>
